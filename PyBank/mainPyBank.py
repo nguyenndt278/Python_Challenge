@@ -35,7 +35,7 @@ with open (csvPath,newline='') as csvFile:
     print('Greatest Decrese in Profits: '+ str(y[0])+ ' ($'+str(y[1])+ ')')
 
 
-output_path = os.path.join("C:\workspace\Resources", "pyBankResult.txt")
+output_path = os.path.join('C:\\Users\\admin\\Desktop\\Homework\\Week_3\\Python_Challenge\\PyBank', 'pyBankResult.txt')
 
 with open(output_path, 'w', newline='') as csvfile:
 

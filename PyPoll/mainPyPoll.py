@@ -54,7 +54,7 @@ with open (csvPath,newline='') as csvFile:
     print("O'Tooley: "+str(y4)+'% ' + '('+ str(x4)+')')
     print("Winner: " + winner)
     
-output_path =os.path.join('C:\workspace\Resources','pyPollResult.txt')
+output_path =os.path.join('C:\\Users\\admin\\Desktop\\Homework\\Week_3\\Python_Challenge\\PyPoll','pyPollResult.txt')
 
 with open(output_path, 'w') as newFile:
     
